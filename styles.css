@@ -1,0 +1,194 @@
+/* RESET styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+*,
+*::before,
+::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+}
+/* Fonts */
+@font-face {
+  font-family: EuclidCircularA;
+  src: url(./fonts/euclid-circular-a-cufonfonts/Euclid\ Circular\ A\ Regular.ttf);
+}
+/* BASE styles */
+.link {
+  text-decoration-line: none;
+}
+
+.list {
+  list-style: none;
+}
+.container {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* blue header banner */
+.header-banner {
+  background-color: #071590;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text {
+  color: white;
+}
+.learn-more-btn {
+  font-family: EuclidCircularA;
+  font-size: 14px;
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 49px;
+  margin-left: 8px;
+}
+.learn-more-btn:visited {
+  color: inherit;
+}
+/* main menu */
+.logo {
+  padding: 8px;
+  margin-right: 8px;
+}
+.header {
+  display: flex;
+  padding: 16px;
+  max-width: 100%;
+}
+.main-menu {
+  display: flex;
+  gap: 0.5rem;
+}
+.menu-link {
+  height: 80px;
+  padding: 12px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.menu-link:visited {
+  color: inherit;
+}
+.main-menu.link {
+  font-size: 16px;
+  padding: 12px;
+}
+
+/* login menu */
+.login-menu {
+  display: flex;
+}
+.login-btn {
+  padding: 12px;
+  font-size: 16px;
+  color: #18191b;
+}
+.nrml-btn:hover {
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+.wht-btn {
+  background-color: white;
+  border-radius: 24px;
+}
+.blck-btn {
+  background-color: #18191b;
+  color: white;
+  border-radius: 24px;
+}
+.header-login {
+}
+/* MAIN */
+.hero {
+  background-color: #edfcf4;
+}
+.hero-text {
+  font-size: 48px;
+  text-align: center;
+  max-width: 912px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 88px;
+  padding-bottom: 10px;
+}
+.hero-header {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  max-width: 742px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* card */
+.plan {
+  background-color: rgb(255, 255, 255);
+  width: calc(25%);
+  min-height: 12.5rem;
+  border-radius: 1.25rem;
+  position: relative;
+  padding: 1.75rem 1.5rem;
+}
+.plans {
+  display: flex;
+  gap: 16px;
+  padding: 45px 25px;
+}
+.plan-name {
+  font-size: 36px;
+}
+.plan-description {
+  font-size: 18px;
+  height: 115px;
+}
+.price-number {
+  font-size: 64px;
+}
+.plan-price {
+  font-size: 32px;
+}
+.price-comment {
+  font-size: 14px;
+  color: #727379;
+  margin-bottom: 16px;
+}
+.plan-benefit {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #18191b;
+  margin-bottom: 16px;
+}
+.price-btn {
+  font-size: 16px;
+  text-decoration-line: none;
+  display: flex;
+  justify-content: center;
+}
+.price-btn:visited {
+  color: inherit;
+}
+.div-price-btn {
+  font-size: 16px;
+  border: 1px solid rgb(24, 25, 27);
+  padding: 16px 32px;
+  border-radius: 10px;
+}
+.third {
+  background-color: #effaff;
+  border: 1px solid rgb(0, 92, 152);
+}
